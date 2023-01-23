@@ -1,3 +1,29 @@
+#blog-index{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+  margin-bottom: auto;
+  
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: grey;
+}
+
 body {
     font-family: Arial;
     padding: 10px;
@@ -72,6 +98,7 @@ footer {
 }
 .card-content {
   background-color: #a6a6a6;
+  /* color: white; */
   padding: 20px;
   margin-top: 20px;
 }
